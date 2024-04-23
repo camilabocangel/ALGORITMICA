@@ -1,6 +1,9 @@
-#include <iostream>
-#include <vector>
+#include<bits/stdc++.h>
+
 using namespace std;
+
+#define input freopen("in.txt","r",stdin)
+#define output freopen("out.txt","w",stdout)
 
 bool vis[10000];
 vector<int> grafo[nodos]; //creando el grafo que va desde 0 a 9999 y cada uno de esos tiene un vector que esta vacio
